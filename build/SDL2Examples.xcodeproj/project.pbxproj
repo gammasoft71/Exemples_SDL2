@@ -1,0 +1,1202 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		32F9C2E85CFB4D7EA1AACA92 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = AFAC1B3276DB4A8C8EE6D9F2 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				FDC6EFFBBD4D4E71A3F0EF12 /* CMake Rules */,
+			);
+			dependencies = (
+				F33E1B300B954F3FB3FAE4D5 /* PBXTargetDependency */,
+				E6455FEC25CD469B8D049D93 /* PBXTargetDependency */,
+				3912F1E496394883A75F58AD /* PBXTargetDependency */,
+				34767AE72115492482CECE0F /* PBXTargetDependency */,
+				933C135A17BB4AFDBFD68DF4 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		D1494BA209F743F2A9BB22D1 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = B699651961E748F4A76EF9A8 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				9FCCE8DA6812439FA4452CE5 /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		00A97D2ECE00464EB28951D1 /* /Users/yves/Projects/Examples/Examples_SDL2/build/hello_worlds/hello_world_message_box2/CMakeFiles/hello_world_message_box2.dir/Info.plist */ = {isa = PBXBuildFile; fileRef = AF8F0508F5F045CD8423B51B /* /Users/yves/Projects/Examples/Examples_SDL2/build/hello_worlds/hello_world_message_box2/CMakeFiles/hello_world_message_box2.dir/Info.plist */; };
+		1A94E3D2A3344C4C943DBFEB /* /Users/yves/Projects/Examples/Examples_SDL2/applications/application/src/application.cpp */ = {isa = PBXBuildFile; fileRef = F819045FA3334E668C6337D6 /* /Users/yves/Projects/Examples/Examples_SDL2/applications/application/src/application.cpp */; };
+		4F66267629254755BD871E9B /* /Users/yves/Projects/Examples/Examples_SDL2/hello_worlds/hello_world_message_box/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 999A37EDBF9E4D79A1998033 /* /Users/yves/Projects/Examples/Examples_SDL2/hello_worlds/hello_world_message_box/CMakeLists.txt */; };
+		6521115235614146899ECB54 /* /Users/yves/Projects/Examples/Examples_SDL2/hello_worlds/hello_world_message_box/src/hello_world_message_box.cpp */ = {isa = PBXBuildFile; fileRef = 9ACA62872FA64F02B4588D61 /* /Users/yves/Projects/Examples/Examples_SDL2/hello_worlds/hello_world_message_box/src/hello_world_message_box.cpp */; };
+		7E9A81FBAA384652B263B238 /* /Users/yves/Projects/Examples/Examples_SDL2/hello_worlds/hello_world_message_box2/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = CD0A99228D864E51A728D7A3 /* /Users/yves/Projects/Examples/Examples_SDL2/hello_worlds/hello_world_message_box2/CMakeLists.txt */; };
+		7EC03C47478F4A208EBE7A61 /* /Users/yves/Projects/Examples/Examples_SDL2/hello_worlds/hello_world_message_box2/src/hello_world_message_box2.cpp */ = {isa = PBXBuildFile; fileRef = 6D943C9269B045D48349AC97 /* /Users/yves/Projects/Examples/Examples_SDL2/hello_worlds/hello_world_message_box2/src/hello_world_message_box2.cpp */; };
+		86F98323DA6D4D4CBF68DA32 /* /Users/yves/Projects/Examples/Examples_SDL2/hello_worlds/hello_world/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = CAA8E6E30B1443E589C955E7 /* /Users/yves/Projects/Examples/Examples_SDL2/hello_worlds/hello_world/CMakeLists.txt */; };
+		88F803A536924798974EDD7F /* /Users/yves/Projects/Examples/Examples_SDL2/build/applications/application/CMakeFiles/application.dir/Info.plist */ = {isa = PBXBuildFile; fileRef = B0DB03D210CD4EF891892825 /* /Users/yves/Projects/Examples/Examples_SDL2/build/applications/application/CMakeFiles/application.dir/Info.plist */; };
+		8B19ADA286624C3FB27D08D0 /* /Users/yves/Projects/Examples/Examples_SDL2/applications/application/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = A0CDC19996114224A767D941 /* /Users/yves/Projects/Examples/Examples_SDL2/applications/application/CMakeLists.txt */; };
+		D9C5561719C8494B8B49DFDF /* /Users/yves/Projects/Examples/Examples_SDL2/hello_worlds/hello_world/src/hello_world.cpp */ = {isa = PBXBuildFile; fileRef = 633B6AC02E194AF79E7100EA /* /Users/yves/Projects/Examples/Examples_SDL2/hello_worlds/hello_world/src/hello_world.cpp */; };
+		DE3137507BBB42B7B2725D9F /* /Users/yves/Projects/Examples/Examples_SDL2/build/hello_worlds/hello_world/CMakeFiles/hello_world.dir/Info.plist */ = {isa = PBXBuildFile; fileRef = D33AFBD32BBD47E1A572BF4D /* /Users/yves/Projects/Examples/Examples_SDL2/build/hello_worlds/hello_world/CMakeFiles/hello_world.dir/Info.plist */; };
+		EC5DF87AC5D14221B449D57F /* /Users/yves/Projects/Examples/Examples_SDL2/build/hello_worlds/hello_world_message_box/CMakeFiles/hello_world_message_box.dir/Info.plist */ = {isa = PBXBuildFile; fileRef = AF99625BA55A486DA38716FF /* /Users/yves/Projects/Examples/Examples_SDL2/build/hello_worlds/hello_world_message_box/CMakeFiles/hello_world_message_box.dir/Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		480F7D3655484700AC429BF0 /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+		6C707DBF113541C7B892000C /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+		C34D0B542D7649EBBA2730DE /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		C6B569AC06E14E22A0001E83 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		08C717A97841433596D6BD93 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0970C90247A54357B27D11FE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 062AA6924E954EFF810DDFEA;
+			remoteInfo = hello_world;
+		};
+		16B2E86839524FF8A963E8AE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0970C90247A54357B27D11FE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 76350A9CF3BB4C5EB3543E38;
+			remoteInfo = hello_world_message_box;
+		};
+		580C2CE203EE4639B030704B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0970C90247A54357B27D11FE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D1494BA209F743F2A9BB22D1;
+			remoteInfo = ZERO_CHECK;
+		};
+		647871B6C7EB4915BED0BE9F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0970C90247A54357B27D11FE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 32E0E9A82CAA45F89B3A9D5A;
+			remoteInfo = hello_world_message_box2;
+		};
+		A90296B7F67C4BDAA496B20E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0970C90247A54357B27D11FE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E5756FC915EF4926AEA0AF5F;
+			remoteInfo = application;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2C1546CBF0BC45CF99AFCE56 /* hello_world_message_box */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = hello_world_message_box; sourceTree = BUILT_PRODUCTS_DIR; };
+		633B6AC02E194AF79E7100EA /* /Users/yves/Projects/Examples/Examples_SDL2/hello_worlds/hello_world/src/hello_world.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = hello_world.cpp; path = hello_worlds/hello_world/src/hello_world.cpp; sourceTree = SOURCE_ROOT; };
+		67EAF17E4B064BAFA61A3972 /* hello_world */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = hello_world; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D943C9269B045D48349AC97 /* /Users/yves/Projects/Examples/Examples_SDL2/hello_worlds/hello_world_message_box2/src/hello_world_message_box2.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = hello_world_message_box2.cpp; path = hello_worlds/hello_world_message_box2/src/hello_world_message_box2.cpp; sourceTree = SOURCE_ROOT; };
+		999A37EDBF9E4D79A1998033 /* /Users/yves/Projects/Examples/Examples_SDL2/hello_worlds/hello_world_message_box/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = hello_worlds/hello_world_message_box/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		9ACA62872FA64F02B4588D61 /* /Users/yves/Projects/Examples/Examples_SDL2/hello_worlds/hello_world_message_box/src/hello_world_message_box.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = hello_world_message_box.cpp; path = hello_worlds/hello_world_message_box/src/hello_world_message_box.cpp; sourceTree = SOURCE_ROOT; };
+		A0CDC19996114224A767D941 /* /Users/yves/Projects/Examples/Examples_SDL2/applications/application/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = applications/application/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		A15F3D224CBC48778278DCFE /* /Users/yves/Projects/Examples/Examples_SDL2/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		AF8F0508F5F045CD8423B51B /* /Users/yves/Projects/Examples/Examples_SDL2/build/hello_worlds/hello_world_message_box2/CMakeFiles/hello_world_message_box2.dir/Info.plist */ = {isa = PBXFileReference; explicitFileType = sourcecode.text.plist; fileEncoding = 4; name = Info.plist; path = build/hello_worlds/hello_world_message_box2/CMakeFiles/hello_world_message_box2.dir/Info.plist; sourceTree = SOURCE_ROOT; };
+		AF99625BA55A486DA38716FF /* /Users/yves/Projects/Examples/Examples_SDL2/build/hello_worlds/hello_world_message_box/CMakeFiles/hello_world_message_box.dir/Info.plist */ = {isa = PBXFileReference; explicitFileType = sourcecode.text.plist; fileEncoding = 4; name = Info.plist; path = build/hello_worlds/hello_world_message_box/CMakeFiles/hello_world_message_box.dir/Info.plist; sourceTree = SOURCE_ROOT; };
+		B0DB03D210CD4EF891892825 /* /Users/yves/Projects/Examples/Examples_SDL2/build/applications/application/CMakeFiles/application.dir/Info.plist */ = {isa = PBXFileReference; explicitFileType = sourcecode.text.plist; fileEncoding = 4; name = Info.plist; path = build/applications/application/CMakeFiles/application.dir/Info.plist; sourceTree = SOURCE_ROOT; };
+		C25E2DA115834FAEB853A051 /* application */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = application; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAA8E6E30B1443E589C955E7 /* /Users/yves/Projects/Examples/Examples_SDL2/hello_worlds/hello_world/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = hello_worlds/hello_world/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		CD0A99228D864E51A728D7A3 /* /Users/yves/Projects/Examples/Examples_SDL2/hello_worlds/hello_world_message_box2/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = hello_worlds/hello_world_message_box2/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		D33AFBD32BBD47E1A572BF4D /* /Users/yves/Projects/Examples/Examples_SDL2/build/hello_worlds/hello_world/CMakeFiles/hello_world.dir/Info.plist */ = {isa = PBXFileReference; explicitFileType = sourcecode.text.plist; fileEncoding = 4; name = Info.plist; path = build/hello_worlds/hello_world/CMakeFiles/hello_world.dir/Info.plist; sourceTree = SOURCE_ROOT; };
+		E3B4AFBFD3E64835AF977A25 /* hello_world_message_box2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = hello_world_message_box2; sourceTree = BUILT_PRODUCTS_DIR; };
+		F819045FA3334E668C6337D6 /* /Users/yves/Projects/Examples/Examples_SDL2/applications/application/src/application.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = application.cpp; path = applications/application/src/application.cpp; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		0CF1921B16774B2FB689099F /* hello_world */ = {
+			isa = PBXGroup;
+			children = (
+				1B7EFF91AF634E7DA115CB9E /* src */,
+				5EAD73AF3C4241D1912F6F0F /* Resources */,
+				CAA8E6E30B1443E589C955E7 /* /Users/yves/Projects/Examples/Examples_SDL2/hello_worlds/hello_world/CMakeLists.txt */,
+			);
+			name = hello_world;
+			sourceTree = "<group>";
+		};
+		1B7EFF91AF634E7DA115CB9E /* src */ = {
+			isa = PBXGroup;
+			children = (
+				633B6AC02E194AF79E7100EA /* /Users/yves/Projects/Examples/Examples_SDL2/hello_worlds/hello_world/src/hello_world.cpp */,
+			);
+			name = src;
+			sourceTree = "<group>";
+		};
+		22FBDB7E8F844D0A9C955EF4 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		279CF0E5B7C9448AA4649631 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C25E2DA115834FAEB853A051 /* application */,
+				67EAF17E4B064BAFA61A3972 /* hello_world */,
+				2C1546CBF0BC45CF99AFCE56 /* hello_world_message_box */,
+				E3B4AFBFD3E64835AF977A25 /* hello_world_message_box2 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		27E9D587F6634A369E612388 /* hello_world_message_box2 */ = {
+			isa = PBXGroup;
+			children = (
+				3794E29878C24C62A54583F0 /* src */,
+				A9F996BFDBAF40A9A3F1FAA2 /* Resources */,
+				CD0A99228D864E51A728D7A3 /* /Users/yves/Projects/Examples/Examples_SDL2/hello_worlds/hello_world_message_box2/CMakeLists.txt */,
+			);
+			name = hello_world_message_box2;
+			sourceTree = "<group>";
+		};
+		3323D8BAA75C4407BC8A1FE2 /* application */ = {
+			isa = PBXGroup;
+			children = (
+				FC89B8A5AA8C424EB99E7536 /* src */,
+				6AADAB8716F74D0D9FD3E7F9 /* Resources */,
+				A0CDC19996114224A767D941 /* /Users/yves/Projects/Examples/Examples_SDL2/applications/application/CMakeLists.txt */,
+			);
+			name = application;
+			sourceTree = "<group>";
+		};
+		3794E29878C24C62A54583F0 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				6D943C9269B045D48349AC97 /* /Users/yves/Projects/Examples/Examples_SDL2/hello_worlds/hello_world_message_box2/src/hello_world_message_box2.cpp */,
+			);
+			name = src;
+			sourceTree = "<group>";
+		};
+		45D81FDDA07045E58DCA4B5E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				AF99625BA55A486DA38716FF /* /Users/yves/Projects/Examples/Examples_SDL2/build/hello_worlds/hello_world_message_box/CMakeFiles/hello_world_message_box.dir/Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		5CE9CE1B6A54462895FCC221 /* hello_world_message_box */ = {
+			isa = PBXGroup;
+			children = (
+				B6F2B4DF3B80418FAF6A64FC /* src */,
+				45D81FDDA07045E58DCA4B5E /* Resources */,
+				999A37EDBF9E4D79A1998033 /* /Users/yves/Projects/Examples/Examples_SDL2/hello_worlds/hello_world_message_box/CMakeLists.txt */,
+			);
+			name = hello_world_message_box;
+			sourceTree = "<group>";
+		};
+		5EAD73AF3C4241D1912F6F0F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D33AFBD32BBD47E1A572BF4D /* /Users/yves/Projects/Examples/Examples_SDL2/build/hello_worlds/hello_world/CMakeFiles/hello_world.dir/Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		6AADAB8716F74D0D9FD3E7F9 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B0DB03D210CD4EF891892825 /* /Users/yves/Projects/Examples/Examples_SDL2/build/applications/application/CMakeFiles/application.dir/Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		A9F996BFDBAF40A9A3F1FAA2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				AF8F0508F5F045CD8423B51B /* /Users/yves/Projects/Examples/Examples_SDL2/build/hello_worlds/hello_world_message_box2/CMakeFiles/hello_world_message_box2.dir/Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		B6F2B4DF3B80418FAF6A64FC /* src */ = {
+			isa = PBXGroup;
+			children = (
+				9ACA62872FA64F02B4588D61 /* /Users/yves/Projects/Examples/Examples_SDL2/hello_worlds/hello_world_message_box/src/hello_world_message_box.cpp */,
+			);
+			name = src;
+			sourceTree = "<group>";
+		};
+		E93D6D8A34D7452EBBD584A5 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				22FBDB7E8F844D0A9C955EF4 /* CMake Rules */,
+				A15F3D224CBC48778278DCFE /* /Users/yves/Projects/Examples/Examples_SDL2/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		F92F284212C74B23AE7E6CDD = {
+			isa = PBXGroup;
+			children = (
+				E93D6D8A34D7452EBBD584A5 /* ALL_BUILD */,
+				3323D8BAA75C4407BC8A1FE2 /* application */,
+				0CF1921B16774B2FB689099F /* hello_world */,
+				5CE9CE1B6A54462895FCC221 /* hello_world_message_box */,
+				27E9D587F6634A369E612388 /* hello_world_message_box2 */,
+				279CF0E5B7C9448AA4649631 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FC89B8A5AA8C424EB99E7536 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				F819045FA3334E668C6337D6 /* /Users/yves/Projects/Examples/Examples_SDL2/applications/application/src/application.cpp */,
+			);
+			name = src;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		062AA6924E954EFF810DDFEA /* hello_world */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 656C20F5322C4C5A93B9976E /* Build configuration list for PBXNativeTarget "hello_world" */;
+			buildPhases = (
+				D280D8E9222B49E1967FA180 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = hello_world;
+			productName = hello_world;
+			productReference = 67EAF17E4B064BAFA61A3972 /* hello_world */;
+			productType = "com.apple.product-type.application";
+		};
+		32E0E9A82CAA45F89B3A9D5A /* hello_world_message_box2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2894A40722DE4887A6F7512B /* Build configuration list for PBXNativeTarget "hello_world_message_box2" */;
+			buildPhases = (
+				0EDEF6A83AC3437A8A7C58D2 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = hello_world_message_box2;
+			productName = hello_world_message_box2;
+			productReference = E3B4AFBFD3E64835AF977A25 /* hello_world_message_box2 */;
+			productType = "com.apple.product-type.application";
+		};
+		76350A9CF3BB4C5EB3543E38 /* hello_world_message_box */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A47F92A17AAB49AA8CB4B6A4 /* Build configuration list for PBXNativeTarget "hello_world_message_box" */;
+			buildPhases = (
+				29953E1C4A52409DADCA7E09 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = hello_world_message_box;
+			productName = hello_world_message_box;
+			productReference = 2C1546CBF0BC45CF99AFCE56 /* hello_world_message_box */;
+			productType = "com.apple.product-type.application";
+		};
+		E5756FC915EF4926AEA0AF5F /* application */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A0BCF4D14C14BCF8E4B9B23 /* Build configuration list for PBXNativeTarget "application" */;
+			buildPhases = (
+				903A045FBD8F49D3BED733F3 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = application;
+			productName = application;
+			productReference = C25E2DA115834FAEB853A051 /* application */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0970C90247A54357B27D11FE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1200;
+			};
+			buildConfigurationList = 807C841985AF46FD90B34303 /* Build configuration list for PBXProject "SDL2Examples" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				C34D0B542D7649EBBA2730DE /* Debug */,
+				C6B569AC06E14E22A0001E83 /* Release */,
+				480F7D3655484700AC429BF0 /* MinSizeRel */,
+				6C707DBF113541C7B892000C /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = F92F284212C74B23AE7E6CDD;
+			projectDirPath = ../;
+			projectRoot = "";
+			targets = (
+				32F9C2E85CFB4D7EA1AACA92 /* ALL_BUILD */,
+				D1494BA209F743F2A9BB22D1 /* ZERO_CHECK */,
+				E5756FC915EF4926AEA0AF5F /* application */,
+				062AA6924E954EFF810DDFEA /* hello_world */,
+				76350A9CF3BB4C5EB3543E38 /* hello_world_message_box */,
+				32E0E9A82CAA45F89B3A9D5A /* hello_world_message_box2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9FCCE8DA6812439FA4452CE5 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/yves/Projects/Examples/Examples_SDL2/build -f /Users/yves/Projects/Examples/Examples_SDL2/build/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		A4AA384CBAB6490389B8718F = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		C287AED5FF8F4CDBA394D760 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		FDC6EFFBBD4D4E71A3F0EF12 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/yves/Projects/Examples/Examples_SDL2/build -f /Users/yves/Projects/Examples/Examples_SDL2/build/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0EDEF6A83AC3437A8A7C58D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EC03C47478F4A208EBE7A61 /* /Users/yves/Projects/Examples/Examples_SDL2/hello_worlds/hello_world_message_box2/src/hello_world_message_box2.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29953E1C4A52409DADCA7E09 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6521115235614146899ECB54 /* /Users/yves/Projects/Examples/Examples_SDL2/hello_worlds/hello_world_message_box/src/hello_world_message_box.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		903A045FBD8F49D3BED733F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A94E3D2A3344C4C943DBFEB /* /Users/yves/Projects/Examples/Examples_SDL2/applications/application/src/application.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D280D8E9222B49E1967FA180 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9C5561719C8494B8B49DFDF /* /Users/yves/Projects/Examples/Examples_SDL2/hello_worlds/hello_world/src/hello_world.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		34767AE72115492482CECE0F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 062AA6924E954EFF810DDFEA /* hello_world */;
+			targetProxy = 08C717A97841433596D6BD93 /* PBXContainerItemProxy */;
+		};
+		3912F1E496394883A75F58AD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E5756FC915EF4926AEA0AF5F /* application */;
+			targetProxy = A90296B7F67C4BDAA496B20E /* PBXContainerItemProxy */;
+		};
+		933C135A17BB4AFDBFD68DF4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 76350A9CF3BB4C5EB3543E38 /* hello_world_message_box */;
+			targetProxy = 16B2E86839524FF8A963E8AE /* PBXContainerItemProxy */;
+		};
+		E6455FEC25CD469B8D049D93 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 32E0E9A82CAA45F89B3A9D5A /* hello_world_message_box2 */;
+			targetProxy = 647871B6C7EB4915BED0BE9F /* PBXContainerItemProxy */;
+		};
+		F33E1B300B954F3FB3FAE4D5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D1494BA209F743F2A9BB22D1 /* ZERO_CHECK */;
+			targetProxy = 580C2CE203EE4639B030704B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		085355E834B0493A8E85688F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/yves/Projects/Examples/Examples_SDL2/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		08B90CE9B8D54365B68711F4 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/Cellar/sdl2/2.0.12_1/include/SDL2,/usr/local/include/SDL2);
+				INFOPLIST_FILE = /Users/yves/Projects/Examples/Examples_SDL2/build/hello_worlds/hello_world_message_box/CMakeFiles/hello_world_message_box.dir/Info.plist;
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=gnu++17' ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -L/usr/local/Cellar/sdl2/2.0.12_1/lib  -lSDL2 /usr/local/lib/libSDL2_ttf.dylib /usr/local/lib/libSDL2_ttf.dylib -framework Cocoa";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = hello_world_message_box;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/yves/Projects/Examples/Examples_SDL2/build/hello_worlds/hello_world_message_box;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		0B17D154E3C2409E87EF7D8F /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/Cellar/sdl2/2.0.12_1/include/SDL2);
+				INFOPLIST_FILE = /Users/yves/Projects/Examples/Examples_SDL2/build/applications/application/CMakeFiles/application.dir/Info.plist;
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG '-std=gnu++17' ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -L/usr/local/Cellar/sdl2/2.0.12_1/lib  -lSDL2";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = application;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/yves/Projects/Examples/Examples_SDL2/build/applications/application;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		28EBBB6A4FE745A38E9D7BEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/Cellar/sdl2/2.0.12_1/include/SDL2);
+				INFOPLIST_FILE = /Users/yves/Projects/Examples/Examples_SDL2/build/hello_worlds/hello_world_message_box2/CMakeFiles/hello_world_message_box2.dir/Info.plist;
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=gnu++17' ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -L/usr/local/Cellar/sdl2/2.0.12_1/lib  -lSDL2";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = hello_world_message_box2;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/yves/Projects/Examples/Examples_SDL2/build/hello_worlds/hello_world_message_box2;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		2B862F9070A34125B557B976 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/Cellar/sdl2/2.0.12_1/include/SDL2,/usr/local/include/SDL2);
+				INFOPLIST_FILE = /Users/yves/Projects/Examples/Examples_SDL2/build/hello_worlds/hello_world/CMakeFiles/hello_world.dir/Info.plist;
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG '-std=gnu++17' ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -L/usr/local/Cellar/sdl2/2.0.12_1/lib  -lSDL2 /usr/local/lib/libSDL2_ttf.dylib /usr/local/lib/libSDL2_ttf.dylib -framework Cocoa";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = hello_world;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/yves/Projects/Examples/Examples_SDL2/build/hello_worlds/hello_world;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		2BE2896C95F54F9FB405B38E /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/yves/Projects/Examples/Examples_SDL2/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		339E9822FBAF416399A3B1EA /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/yves/Projects/Examples/Examples_SDL2/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		37591D84F6584EA2B61CF2AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/Cellar/sdl2/2.0.12_1/include/SDL2,/usr/local/include/SDL2);
+				INFOPLIST_FILE = /Users/yves/Projects/Examples/Examples_SDL2/build/hello_worlds/hello_world/CMakeFiles/hello_world.dir/Info.plist;
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=gnu++17' ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -L/usr/local/Cellar/sdl2/2.0.12_1/lib  -lSDL2 /usr/local/lib/libSDL2_ttf.dylib /usr/local/lib/libSDL2_ttf.dylib -framework Cocoa";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = hello_world;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/yves/Projects/Examples/Examples_SDL2/build/hello_worlds/hello_world;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		38A32077320F401089E7A03B /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/Cellar/sdl2/2.0.12_1/include/SDL2);
+				INFOPLIST_FILE = /Users/yves/Projects/Examples/Examples_SDL2/build/hello_worlds/hello_world_message_box2/CMakeFiles/hello_world_message_box2.dir/Info.plist;
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=gnu++17' ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -L/usr/local/Cellar/sdl2/2.0.12_1/lib  -lSDL2";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = hello_world_message_box2;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/yves/Projects/Examples/Examples_SDL2/build/hello_worlds/hello_world_message_box2;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		461829F8039A403EAA641770 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/Cellar/sdl2/2.0.12_1/include/SDL2);
+				INFOPLIST_FILE = /Users/yves/Projects/Examples/Examples_SDL2/build/applications/application/CMakeFiles/application.dir/Info.plist;
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=gnu++17' ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -L/usr/local/Cellar/sdl2/2.0.12_1/lib  -lSDL2";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = application;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/yves/Projects/Examples/Examples_SDL2/build/applications/application;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		463EF75BA4244FF19FB0C943 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/Cellar/sdl2/2.0.12_1/include/SDL2);
+				INFOPLIST_FILE = /Users/yves/Projects/Examples/Examples_SDL2/build/applications/application/CMakeFiles/application.dir/Info.plist;
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=gnu++17' ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -L/usr/local/Cellar/sdl2/2.0.12_1/lib  -lSDL2";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = application;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/yves/Projects/Examples/Examples_SDL2/build/applications/application;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		4E16EE20EBFF4396B05544C7 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/Cellar/sdl2/2.0.12_1/include/SDL2);
+				INFOPLIST_FILE = /Users/yves/Projects/Examples/Examples_SDL2/build/hello_worlds/hello_world_message_box2/CMakeFiles/hello_world_message_box2.dir/Info.plist;
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG '-std=gnu++17' ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -L/usr/local/Cellar/sdl2/2.0.12_1/lib  -lSDL2";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = hello_world_message_box2;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/yves/Projects/Examples/Examples_SDL2/build/hello_worlds/hello_world_message_box2;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		52E74E1B98B449569634399B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk;
+				SYMROOT = /Users/yves/Projects/Examples/Examples_SDL2/build/build;
+			};
+			name = Release;
+		};
+		658F4E63EE6A458D8557F172 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk;
+				SYMROOT = /Users/yves/Projects/Examples/Examples_SDL2/build/build;
+			};
+			name = Debug;
+		};
+		724796A98F1B4FC39DADB95C /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/yves/Projects/Examples/Examples_SDL2/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		886D46885EBF44CDA5A73B97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/Cellar/sdl2/2.0.12_1/include/SDL2,/usr/local/include/SDL2);
+				INFOPLIST_FILE = /Users/yves/Projects/Examples/Examples_SDL2/build/hello_worlds/hello_world/CMakeFiles/hello_world.dir/Info.plist;
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "   '-std=gnu++17' ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -L/usr/local/Cellar/sdl2/2.0.12_1/lib  -lSDL2 /usr/local/lib/libSDL2_ttf.dylib /usr/local/lib/libSDL2_ttf.dylib -framework Cocoa";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = hello_world;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/yves/Projects/Examples/Examples_SDL2/build/hello_worlds/hello_world;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		8C2A25816D02451A9DEA3276 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/yves/Projects/Examples/Examples_SDL2/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		8CE2A16884D94CAE8E697956 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/yves/Projects/Examples/Examples_SDL2/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		ACD81ED0C0AE4D228AF1937E /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/Cellar/sdl2/2.0.12_1/include/SDL2,/usr/local/include/SDL2);
+				INFOPLIST_FILE = /Users/yves/Projects/Examples/Examples_SDL2/build/hello_worlds/hello_world_message_box/CMakeFiles/hello_world_message_box.dir/Info.plist;
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG '-std=gnu++17' ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -L/usr/local/Cellar/sdl2/2.0.12_1/lib  -lSDL2 /usr/local/lib/libSDL2_ttf.dylib /usr/local/lib/libSDL2_ttf.dylib -framework Cocoa";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = hello_world_message_box;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/yves/Projects/Examples/Examples_SDL2/build/hello_worlds/hello_world_message_box;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		B868019B0BB64E1A8C030CFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/Cellar/sdl2/2.0.12_1/include/SDL2);
+				INFOPLIST_FILE = /Users/yves/Projects/Examples/Examples_SDL2/build/applications/application/CMakeFiles/application.dir/Info.plist;
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "   '-std=gnu++17' ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -L/usr/local/Cellar/sdl2/2.0.12_1/lib  -lSDL2";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = application;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/yves/Projects/Examples/Examples_SDL2/build/applications/application;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		CB0F112636904B46849EB47A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/Cellar/sdl2/2.0.12_1/include/SDL2,/usr/local/include/SDL2);
+				INFOPLIST_FILE = /Users/yves/Projects/Examples/Examples_SDL2/build/hello_worlds/hello_world_message_box/CMakeFiles/hello_world_message_box.dir/Info.plist;
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=gnu++17' ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -L/usr/local/Cellar/sdl2/2.0.12_1/lib  -lSDL2 /usr/local/lib/libSDL2_ttf.dylib /usr/local/lib/libSDL2_ttf.dylib -framework Cocoa";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = hello_world_message_box;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/yves/Projects/Examples/Examples_SDL2/build/hello_worlds/hello_world_message_box;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		CBE1CA37152D4CF3A0FF3A54 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/Cellar/sdl2/2.0.12_1/include/SDL2,/usr/local/include/SDL2);
+				INFOPLIST_FILE = /Users/yves/Projects/Examples/Examples_SDL2/build/hello_worlds/hello_world/CMakeFiles/hello_world.dir/Info.plist;
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=gnu++17' ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -L/usr/local/Cellar/sdl2/2.0.12_1/lib  -lSDL2 /usr/local/lib/libSDL2_ttf.dylib /usr/local/lib/libSDL2_ttf.dylib -framework Cocoa";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = hello_world;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/yves/Projects/Examples/Examples_SDL2/build/hello_worlds/hello_world;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		D0E432F5B1A640DE8A742EA0 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/yves/Projects/Examples/Examples_SDL2/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		D1609E12156D4A5796130E3D /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk;
+				SYMROOT = /Users/yves/Projects/Examples/Examples_SDL2/build/build;
+			};
+			name = RelWithDebInfo;
+		};
+		DD1AC39418664E1E90433740 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/yves/Projects/Examples/Examples_SDL2/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		EBE61A2A790B45CDB57E2FB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/Cellar/sdl2/2.0.12_1/include/SDL2);
+				INFOPLIST_FILE = /Users/yves/Projects/Examples/Examples_SDL2/build/hello_worlds/hello_world_message_box2/CMakeFiles/hello_world_message_box2.dir/Info.plist;
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "   '-std=gnu++17' ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -L/usr/local/Cellar/sdl2/2.0.12_1/lib  -lSDL2";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = hello_world_message_box2;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/yves/Projects/Examples/Examples_SDL2/build/hello_worlds/hello_world_message_box2;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		EED0CABB8D434209AF157C7F /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk;
+				SYMROOT = /Users/yves/Projects/Examples/Examples_SDL2/build/build;
+			};
+			name = MinSizeRel;
+		};
+		F2B334ACF1934D2DA9918F4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/Cellar/sdl2/2.0.12_1/include/SDL2,/usr/local/include/SDL2);
+				INFOPLIST_FILE = /Users/yves/Projects/Examples/Examples_SDL2/build/hello_worlds/hello_world_message_box/CMakeFiles/hello_world_message_box.dir/Info.plist;
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "   '-std=gnu++17' ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -L/usr/local/Cellar/sdl2/2.0.12_1/lib  -lSDL2 /usr/local/lib/libSDL2_ttf.dylib /usr/local/lib/libSDL2_ttf.dylib -framework Cocoa";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = hello_world_message_box;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/yves/Projects/Examples/Examples_SDL2/build/hello_worlds/hello_world_message_box;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1A0BCF4D14C14BCF8E4B9B23 /* Build configuration list for PBXNativeTarget "application" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B868019B0BB64E1A8C030CFD /* Debug */,
+				461829F8039A403EAA641770 /* Release */,
+				463EF75BA4244FF19FB0C943 /* MinSizeRel */,
+				0B17D154E3C2409E87EF7D8F /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		2894A40722DE4887A6F7512B /* Build configuration list for PBXNativeTarget "hello_world_message_box2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBE61A2A790B45CDB57E2FB1 /* Debug */,
+				28EBBB6A4FE745A38E9D7BEF /* Release */,
+				38A32077320F401089E7A03B /* MinSizeRel */,
+				4E16EE20EBFF4396B05544C7 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		656C20F5322C4C5A93B9976E /* Build configuration list for PBXNativeTarget "hello_world" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				886D46885EBF44CDA5A73B97 /* Debug */,
+				37591D84F6584EA2B61CF2AB /* Release */,
+				CBE1CA37152D4CF3A0FF3A54 /* MinSizeRel */,
+				2B862F9070A34125B557B976 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		807C841985AF46FD90B34303 /* Build configuration list for PBXProject "SDL2Examples" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				658F4E63EE6A458D8557F172 /* Debug */,
+				52E74E1B98B449569634399B /* Release */,
+				EED0CABB8D434209AF157C7F /* MinSizeRel */,
+				D1609E12156D4A5796130E3D /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		A47F92A17AAB49AA8CB4B6A4 /* Build configuration list for PBXNativeTarget "hello_world_message_box" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2B334ACF1934D2DA9918F4D /* Debug */,
+				CB0F112636904B46849EB47A /* Release */,
+				08B90CE9B8D54365B68711F4 /* MinSizeRel */,
+				ACD81ED0C0AE4D228AF1937E /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		AFAC1B3276DB4A8C8EE6D9F2 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C2A25816D02451A9DEA3276 /* Debug */,
+				DD1AC39418664E1E90433740 /* Release */,
+				2BE2896C95F54F9FB405B38E /* MinSizeRel */,
+				D0E432F5B1A640DE8A742EA0 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		B699651961E748F4A76EF9A8 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				085355E834B0493A8E85688F /* Debug */,
+				8CE2A16884D94CAE8E697956 /* Release */,
+				339E9822FBAF416399A3B1EA /* MinSizeRel */,
+				724796A98F1B4FC39DADB95C /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0970C90247A54357B27D11FE /* Project object */;
+}
