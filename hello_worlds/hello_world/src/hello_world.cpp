@@ -1,3 +1,4 @@
+#include <string>
 #include <SDL.h>
 #include <SDL_ttf.h>
 
@@ -7,9 +8,12 @@ int main() {
   auto *window = SDL_CreateWindow("Hello world", SDL_WINDOWPOS_UNDEFINED, SDL_WINDOWPOS_UNDEFINED, 300, 300, SDL_WINDOW_RESIZABLE);
   auto *renderer = SDL_CreateRenderer(window, -1, SDL_RENDERER_ACCELERATED);
   TTF_Font* sans = TTF_OpenFont("/System/Library/Fonts/Supplemental/Arial Bold Italic.ttf", 32);
-  SDL_Surface* surface_message = TTF_RenderText_Solid(sans, "Hello, World!", {0, 128, 0});
+  std::string message = "Hello, World!";
+  SDL_Surface* surface_message = TTF_RenderText_Solid(sans, message.c_str(), {0, 128, 0});
   SDL_Texture* texture_message = SDL_CreateTextureFromSurface(renderer, surface_message);
-  SDL_Rect texture_message_rect {0, 100, 300, 50};
+  int message_witdh, message_height;
+  TTF_SizeText(sans, message.c_str(), &message_witdh, &message_height);
+  SDL_Rect texture_message_rect {0, 100, message_witdh, message_height};
   
   auto quit = false;
   SDL_Event event {0};
