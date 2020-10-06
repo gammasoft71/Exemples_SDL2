@@ -1,29 +1,65 @@
 #include <SDL.h>
 #include <SDL_ttf.h>
 
+#if defined __WIN32__
+constexpr auto default_gui_font_name = "Resources/SegoeUI.ttf";
+float points_to_native_font_graphics_untit(float size) {return size;}
+#elif defined __APPLE__
+constexpr auto default_gui_font_name = "../Resources/SFNS.ttf";
+float points_to_native_font_graphics_untit(float size) {return size / 72.0f * 96.0f;}
+#else
+constexpr auto default_gui_font_name = "Resources/Cantarell-Regular.ttf";
+float points_to_native_font_graphics_untit(float size) {return size;}
+#endif
+
 int main() {
   SDL_Init(SDL_INIT_VIDEO);
   TTF_Init();
-  auto *window = SDL_CreateWindow("Hello world (Message box)", SDL_WINDOWPOS_UNDEFINED, SDL_WINDOWPOS_UNDEFINED, 300, 300, SDL_WINDOW_RESIZABLE);
-  auto *renderer = SDL_CreateRenderer(window, -1, SDL_RENDERER_ACCELERATED);
-  TTF_Font* sans = TTF_OpenFont("/System/Library/Fonts/Supplemental/Times New Roman.ttf", 14);
-  SDL_Surface* surface_message = TTF_RenderText_Solid(sans, "Click me", {255, 255, 255});
-  SDL_Texture* texture_message = SDL_CreateTextureFromSurface(renderer, surface_message);
-  SDL_Rect texture_message_rect {10, 10, 70, 18};
-  
-  auto quit = false;
+  auto window = SDL_CreateWindow("Hello world (Message box)", SDL_WINDOWPOS_UNDEFINED, SDL_WINDOWPOS_UNDEFINED, 300, 300, SDL_WINDOW_RESIZABLE);
+  auto renderer = SDL_CreateRenderer(window, -1, SDL_RENDERER_ACCELERATED);
+  SDL_SetRenderDrawBlendMode(renderer, SDL_BLENDMODE_BLEND);
+  auto font = TTF_OpenFont(default_gui_font_name, points_to_native_font_graphics_untit(10));
+
+  auto button_pressed = false;
+  auto button_hover = false;
+  auto button_title = "Click me";
+  SDL_Surface* surface_button_title = TTF_RenderText_Solid(font, button_title, {255, 255, 255});
+  SDL_Texture* texture_button_title = SDL_CreateTextureFromSurface(renderer, surface_button_title);
+  auto button_title_witdh = 0, button_title_height = 0;
+  TTF_SizeText(font, button_title, &button_title_witdh, &button_title_height);
+  SDL_Rect button_rect {10, 10, 75, 21};
+  SDL_Rect texture_button_title_rect {10 + (button_rect.w - button_title_witdh) / 2, 10 + (button_rect.h - button_title_height) / 2, button_title_witdh, button_title_height};
+
   SDL_Event event {0};
-  while (!(quit = event.type == SDL_QUIT)) {
+  while (event.type != SDL_QUIT) {
     SDL_SetRenderDrawColor(renderer, 50, 50, 50, SDL_ALPHA_OPAQUE);
     SDL_RenderClear(renderer);
-    SDL_RenderCopy(renderer, texture_message, nullptr, &texture_message_rect);
+    if (button_hover) SDL_SetRenderDrawColor(renderer, 0, 122, 255, 255);
+    else SDL_SetRenderDrawColor(renderer, 255, 255, 255, 35);
+    SDL_RenderFillRect(renderer, &button_rect);
+    SDL_SetRenderDrawColor(renderer, 0, 0, 0, 128);
+    SDL_RenderDrawRect(renderer, &button_rect);
+    SDL_SetRenderDrawColor(renderer, 50, 50, 50, SDL_ALPHA_OPAQUE);
+    SDL_RenderCopy(renderer, texture_button_title, nullptr, &texture_button_title_rect);
     SDL_RenderPresent(renderer);
     
-    SDL_WaitEvent(&event);
+    if (SDL_PollEvent(&event)) {
+      if (event.type == SDL_MOUSEBUTTONDOWN) {
+        auto mouse_location = SDL_Point {event.button.x, event.button.y};
+        button_hover = button_pressed = SDL_PointInRect(&mouse_location, &button_rect);
+      } else if (event.type == SDL_MOUSEBUTTONUP) {
+        auto mouse_location = SDL_Point {event.button.x, event.button.y};
+        if (SDL_PointInRect(&mouse_location, &button_rect)) SDL_ShowSimpleMessageBox(SDL_MESSAGEBOX_INFORMATION, "", "Hello, World!",  nullptr);
+        button_hover = button_pressed = false;
+      } else if (event.type == SDL_MOUSEMOTION) {
+        auto mouse_location = SDL_Point {event.button.x, event.button.y};
+        button_hover = button_pressed && SDL_PointInRect(&mouse_location, &button_rect);
+      }
+    }
   }
   
-  SDL_FreeSurface(surface_message);
-  SDL_DestroyTexture(texture_message);
+  SDL_FreeSurface(surface_button_title);
+  SDL_DestroyTexture(texture_button_title);
   SDL_DestroyRenderer(renderer);
   SDL_DestroyWindow(window);
   TTF_Quit();

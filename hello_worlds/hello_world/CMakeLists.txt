@@ -13,6 +13,13 @@ set(SOURCES
 )
 source_group(src FILES ${SOURCES})
 
+set(RESOURCES
+  ../../resources/Cantarell-Regular.ttf
+  ../../resources/SegoeUI.ttf
+  ../../resources/SFNS.ttf
+)
+source_group(resources FILES ${RESOURCES})
+
 # Options
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
@@ -21,6 +28,11 @@ if (MSVC)
   set(CMAKE_EXE_LINKER_FLAGS "${CMAKE_EXE_LINKER_FLAGS} /ENTRY:mainCRTStartup")
 endif()
 
+foreach(RESOURCE ${RESOURCES})
+  configure_file(${CMAKE_CURRENT_SOURCE_DIR}/${RESOURCE} ${CMAKE_CURRENT_BINARY_DIR}/${RESOURCE} COPYONLY)
+  set_property(SOURCE "${CMAKE_CURRENT_SOURCE_DIR}/${RESOURCE}" PROPERTY MACOSX_PACKAGE_LOCATION "Resources")
+endforeach()
+
 # Application properties
-add_executable(${PROJECT_NAME} MACOSX_BUNDLE ${SOURCES})
+add_executable(${PROJECT_NAME} MACOSX_BUNDLE WIN32 ${SOURCES} ${RESOURCES})
 target_link_libraries(${PROJECT_NAME} ${SDL2_LIBRARIES} ${SDL2TTF_LIBRARY})

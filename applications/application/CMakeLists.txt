@@ -20,5 +20,5 @@ if (MSVC)
 endif()
 
 # Application properties
-add_executable(${PROJECT_NAME} MACOSX_BUNDLE ${SOURCES})
+add_executable(${PROJECT_NAME} MACOSX_BUNDLE WIN32 ${SOURCES})
 target_link_libraries(${PROJECT_NAME} ${SDL2_LIBRARIES})
