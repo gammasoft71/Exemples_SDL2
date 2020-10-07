@@ -5,6 +5,9 @@ project(hello_world_message_box)
 #set(CMAKE_MODULE_PATH project_path/cmake_modules)
 
 find_package(SDL2 REQUIRED)
+if (NOT CMAKE_MODULE_PATH)
+  message(FATAL_ERROR "Use CMAKE_MODULE_PATH with your_project_path/cmake_modules value needed to find package SDL2_ttf")
+endif()
 find_package(SDL2TTF REQUIRED)
 include_directories(${SDL2_INCLUDE_DIRS} ${SDL2TTF_INCLUDE_DIR})
 
