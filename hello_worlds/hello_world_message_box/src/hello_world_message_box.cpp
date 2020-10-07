@@ -1,16 +1,17 @@
+#include <string>
 #include <SDL.h>
 #include <SDL_ttf.h>
 
-#if defined __WIN32__
-constexpr auto default_gui_font_name = "Resources/SegoeUI.ttf";
-float points_to_native_font_graphics_untit(float size) {return size;}
-#elif defined __APPLE__
-constexpr auto default_gui_font_name = "../Resources/SFNS.ttf";
-float points_to_native_font_graphics_untit(float size) {return size / 72.0f * 96.0f;}
-#else
-constexpr auto default_gui_font_name = "Resources/Cantarell-Regular.ttf";
-float points_to_native_font_graphics_untit(float size) {return size;}
-#endif
+std::string get_default_gui_font_name() {
+  std::string platform_name = SDL_GetPlatform();
+  if (platform_name == "Windows") return "Resources/SegoeUI.ttf";
+  if (platform_name == "Mac OS X" || platform_name == "IOS") return "../Resources/SFNS.ttf";
+  return "Resources/Cantarell-Regular.ttf";
+}
+
+float points_to_native_font_graphics_untit(float size) {
+  return SDL_GetPlatform() == std::string("Mac OS X") ? size / 72.0f * 96.0f : size;
+}
 
 int main() {
   SDL_Init(SDL_INIT_VIDEO);
@@ -18,7 +19,7 @@ int main() {
   auto window = SDL_CreateWindow("Hello world (Message box)", SDL_WINDOWPOS_UNDEFINED, SDL_WINDOWPOS_UNDEFINED, 300, 300, SDL_WINDOW_RESIZABLE);
   auto renderer = SDL_CreateRenderer(window, -1, SDL_RENDERER_ACCELERATED);
   SDL_SetRenderDrawBlendMode(renderer, SDL_BLENDMODE_BLEND);
-  auto font = TTF_OpenFont(default_gui_font_name, points_to_native_font_graphics_untit(10));
+  auto font = TTF_OpenFont(get_default_gui_font_name().c_str(), points_to_native_font_graphics_untit(10));
 
   auto button_pressed = false;
   auto button_hover = false;
